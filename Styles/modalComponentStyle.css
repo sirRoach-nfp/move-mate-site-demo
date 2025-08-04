@@ -1,0 +1,298 @@
+
+@media(min-width:325px){
+.modal__textinput {
+    width: 100%;
+    border: none;
+   border-bottom: 1px solid #d1d5db;
+    border-radius: 0;
+    font-size: 0.80rem;
+    padding: 4px 2px;
+    outline: none;
+    background-color: transparent;
+    font-family: 'Urbanist', sans-serif;
+    transition: border-color 0.2s ease;
+}
+
+.modal__selectInput{
+   font-size: 0.80rem;
+    border: none;
+    font-family: 'Urbanist', sans-serif;
+    outline: none;
+    border-bottom: 1px solid #d1d5db;
+}
+
+.modal__datepicker{
+    font-size: 0.80rem;
+    outline: none;
+    border: none;
+    font-family: 'Urbanist', sans-serif;
+    border-bottom: 1px solid #d1d5db;
+}
+
+.modal__datepicker:focus{
+    border-bottom: 2px solid #3b82f6;
+}
+
+
+.modal__selectInput:focus{
+    border-bottom: 2px solid #3b82f6; 
+}
+.modal__textinput:focus {
+    border-bottom: 2px solid #3b82f6; /* brand color underline on focus */
+}
+
+
+
+.modal__mainWrapper{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(0,0,0,0.5);
+    transition: 0.3s ease;
+    border: 1px solid black;
+    z-index: 100000;
+}
+
+.modal__mainWrapper.hide{
+    display: none;
+}
+.modal__contentWrapper__header{
+    width: 100%;
+    border: 1px  red;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+}
+.modal__contentWrapper__contents{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.modal__contentWrapper{
+    border: 1px  red;
+    width: 95%;
+    height: fit-content;
+    background-color: white;
+    padding: 1rem 0.5rem;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    
+}
+
+.modal__contentWrapper__content__contactWrapper{
+    border: 1px red;
+    gap: 0.75rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.modal__contentWraper__content__moveDetail{
+    border: 1px  red;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.modal__contentWraper__content__additionalService{
+    border: 1px  red;
+    display: flex;
+    flex-direction: column;
+}
+
+.modal__contentWrapper__quoteButton{
+      padding: 0.5rem;
+      border-width: 0;
+      background-color: #3b82f6;
+      border-radius: 15px;
+      font-family: 'Urbanist', sans-serif;
+      color: white;
+      font-size: 1rem;
+      margin: 1rem 0rem;
+}
+
+.modal__contentWrapper__testimonial{
+    font-size: 0.8rem;
+    color: #6b7280;
+    margin: 0;
+}
+
+.modal__contentWrapper__header__close{
+    width: 1.25rem;
+    height: 1.25rem;
+}
+
+
+}
+
+@media(min-width:425px){
+    .modal__contentWrapper{
+    border: 1px   red;
+    width: 85%;
+    height: fit-content;
+    background-color: white;
+    padding: 1rem 0.5rem;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    
+    }
+}
+
+
+@media(min-width:640px){
+
+    .modal__textinput {
+    width: 100%;
+    border: none;
+   border-bottom: 1px solid #d1d5db;
+    border-radius: 0;
+    font-size: 0.90rem;
+    padding: 4px 2px;
+    outline: none;
+    background-color: transparent;
+    font-family: 'Urbanist', sans-serif;
+    transition: border-color 0.2s ease;
+    }
+
+
+    .modal__selectInput{
+   font-size: 0.90rem;
+    border: none;
+    font-family: 'Urbanist', sans-serif;
+    outline: none;
+    border-bottom: 1px solid #d1d5db;
+    }
+
+    .modal__datepicker{
+        font-size: 0.90rem;
+        outline: none;
+        border: none;
+        font-family: 'Urbanist', sans-serif;
+        border-bottom: 1px solid #d1d5db;
+    }
+
+
+
+
+    .modal__contentWrapper{
+    border: 1px   red;
+    width: 75%;
+    height: fit-content;
+    background-color: white;
+    padding: 1rem 0.5rem;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    
+    }
+
+
+    .modal__contentWrapper__contents{
+    display: flex;
+    flex-direction: column;
+    gap: 0.80rem;
+    }   
+
+}
+
+
+@media(min-width:1025px){
+
+    .modal__textinput {
+    width: 100%;
+    border: none;
+   border-bottom: 1px solid #d1d5db;
+    border-radius: 0;
+    font-size: 0.95rem;
+    padding: 4px 2px;
+    outline: none;
+    background-color: transparent;
+    font-family: 'Urbanist', sans-serif;
+    transition: border-color 0.2s ease;
+    }
+
+
+    .modal__selectInput{
+   font-size: 0.95rem;
+    border: none;
+    font-family: 'Urbanist', sans-serif;
+    outline: none;
+    border-bottom: 1px solid #d1d5db;
+    }
+
+
+    .modal__contentWrapper{
+    border: 1px   red;
+    width: 65%;
+    height: fit-content;
+    background-color: white;
+    padding: 1rem 0.5rem;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    
+    }
+
+
+    .modal__contentWrapper__contents{
+    display: flex;
+    flex-direction: column;
+    gap: 0.90rem;
+    }   
+
+}
+
+
+@media(min-width:1280px){
+
+    .modal__textinput {
+    width: 100%;
+    border: none;
+   border-bottom: 1px solid #d1d5db;
+    border-radius: 0;
+    font-size: 0.95rem;
+    padding: 4px 2px;
+    outline: none;
+    background-color: transparent;
+    font-family: 'Urbanist', sans-serif;
+    transition: border-color 0.2s ease;
+    }
+
+
+    .modal__selectInput{
+   font-size: 0.95rem;
+    border: none;
+    font-family: 'Urbanist', sans-serif;
+    outline: none;
+    border-bottom: 1px solid #d1d5db;
+    }
+
+
+    .modal__contentWrapper{
+    border: 1px   red;
+    width: 50%;
+    height: fit-content;
+    background-color: white;
+    padding: 1rem 0.5rem;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    
+    }
+
+
+    .modal__contentWrapper__contents{
+    display: flex;
+    flex-direction: column;
+    gap: 0.95rem;
+    }   
+
+}

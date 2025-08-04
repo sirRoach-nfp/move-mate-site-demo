@@ -1,0 +1,331 @@
+
+<!Doctype html>
+
+
+
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+        <link rel="stylesheet" href="Styles/globalComponents.css"/>
+        <link rel="stylesheet" href="Styles/globalStyles.css">
+        <link rel="stylesheet" href="Styles/globalTypo.css">
+        <link rel="stylesheet" href="Styles/homeStyle.css">
+        <link rel="stylesheet" href="Styles/modalComponentStyle.css">
+        <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@400;600;700&display=swap" rel="stylesheet">
+       
+    </head>
+
+    <body>
+
+
+        <div class="modal__mainWrapper hide">
+            <div class="modal__contentWrapper">
+                <div class="modal__contentWrapper__header">
+                    <img src="Icons/wrong-cancel-close-svgrepo-com.svg" alt="" class="modal__contentWrapper__header__close">
+                </div>
+
+                <div class="modal__contentWrapper__contents">
+                    <h2 class="globalTypo__quote__title">Get your free quote</h2>
+                    <div class="modal__contentWrapper__content__contactWrapper">
+                            <input type="text" placeholder="Full Name" class="modal__textinput">
+                            <input type="email" placeholder="Email Address" class="modal__textinput">
+                            <input type="tel" placeholder="Phone Number" class="modal__textinput">
+                    </div>
+
+                    <div class="modal__contentWraper__content__moveDetail">
+                        <input type="text" placeholder="Moving From (City or Address)" class="modal__textinput">
+                        <input type="text" placeholder="Moving To (City or Address)" class="modal__textinput">
+                        
+                        <input type="date" class="modal__datepicker">
+                        
+                        <select class="modal__selectInput">
+                            <option value="">Type of Move</option>
+                            <option value="residential">Residential</option>
+                            <option value="office">Office</option>
+                            <option value="long-distance">Long Distance</option>
+                        </select>
+                    </div>
+
+
+
+
+                     <div class="modal__contentWraper__content__additionalService">
+                        <p class="globalTypo__quote__title__tertiary">Additional Services</p>
+                        <div class="grid grid-cols-2 gap-2 text-sm">
+                        <label class="flex items-center gap-2">
+                            <input type="checkbox" class="accent-brand"> Packing
+                        </label>
+                        <label class="flex items-center gap-2">
+                            <input type="checkbox" class="accent-brand"> Unpacking
+                        </label>
+                        <label class="flex items-center gap-2">
+                            <input type="checkbox" class="accent-brand"> Furniture Assembly
+                        </label>
+                        <label class="flex items-center gap-2">
+                            <input type="checkbox" class="accent-brand"> Storage
+                        </label>
+                        </div>
+                    </div>
+
+
+                    <button class="modal__contentWrapper__quoteButton">Get my quote</button>
+                    <p class="modal__contentWrapper__testimonial">What do 500+ people have in common? They moved with MoveMate.</p>
+                </div>
+
+
+
+            </div>
+        </div>
+
+        <header class="globalComponents__navWrapper">
+
+
+            <p class="globalTypo__logo__header">
+                MoveMate
+            </p>
+
+            <button class="burger" aria-label="Toggle navigation">
+                ☰
+            </button>
+
+            <div class="navMenu">
+
+                <nav class="globalComponents__navigator">
+                    <a href="" class="globalComponents__navigator__link globalTypo__navigation__link">services</a>
+                    <a href="about.html" class="globalComponents__navigator__link globalTypo__navigation__link">about us</a>
+                    <a href="" class="globalComponents__navigator__link globalTypo__navigation__link">contact</a>
+                    
+          
+                </nav>
+
+ 
+            </div>
+
+
+        </header>
+
+        <main>
+
+            <section class="globalComponents__heroWrapper" style="background-image: url(/Images/heroWrapper.jpg);">
+                <div class="globalComponents__heroWrapper__overlay">
+
+                    <div class="globalComponents__heroWrapper__contents">
+                        <h1 class="globalTypo__heroPrimary">We move,you relax</h1>
+                  
+                        <button class="globalComponents__button__ctaPrimary">Get an instant quote</button>
+              
+
+                    </div>
+
+
+                </div>
+            </section>
+
+            <section class="homeStyle__servicesSection">
+                <header class="servicesSection__header">
+                    <h2 class="globalTypo__sectionPrimary">What We Can Do For You</h2>
+                    <p class="globalTypo__sectionSecondary">From cozy home moves to full office relocations, our team is here to make every step easier, faster, and stress-free.</p>
+                </header>
+
+                <div class="servicesSection__content">
+                    <div class="servicesSection__cardWrapper">
+                        <img src="Icons/truck-speed-svgrepo-com.svg" alt="" class="globalTypo__icon">
+                        <h3 class="globalTypo__serviceCardPrimary">
+                            Residential Moves
+                        </h3>
+                        <p class="globalTypo__serviceCardSecondary">
+                            Moving to a new home? We make the process stress-free from packing to unloading.
+                        </p>
+
+                        <a href="" class="globalTypo__serviceCardCTA">more info</a>
+                    </div>
+
+                    <div class="servicesSection__cardWrapper">
+                        <img src="Icons/office-svgrepo-com.svg" alt="" class="globalTypo__icon">
+                        <h3 class="globalTypo__serviceCardPrimary">
+                            Office Relocation
+                        </h3>
+                        <p class="globalTypo__serviceCardSecondary">
+                            Shift your workspace with zero downtime. We handle everything — desks, tech, and files.
+                        </p>
+
+                        <a href="" class="globalTypo__serviceCardCTA">more info</a>
+                    </div>
+
+
+                    <div class="servicesSection__cardWrapper">
+                        <img src="Icons/box-svgrepo-com.svg" alt="" class="globalTypo__icon">
+                        <h3 class="globalTypo__serviceCardPrimary">
+                            Packing Services
+                        </h3>
+                        <p class="globalTypo__serviceCardSecondary">
+                            No time to pack? Our team wraps, boxes, and labels your items like pros.
+                        </p>
+
+                        <a href="" class="globalTypo__serviceCardCTA">more info</a>
+                    </div>
+                </div>
+
+
+
+                
+            </section>
+
+
+            <section class="homeStyle__testimonialSection">
+                <header class="testimonialSection__header">
+                    <h2 class="globalTypo__sectionPrimary">People We’ve Proudly Moved</h2>
+                    <p class="globalTypo__sectionSecondary">We’re not just moving boxes — we’re moving lives. See what our customers say about their journey with MoveMate.</p>
+                </header>
+
+                <div class="testimonialSection__swiperContainer">
+
+                    <div class="swiper-wrapper">
+
+
+
+
+                        <!-- slide one -->
+                        <div class="swiper-slide">
+                            
+                                
+                            <blockquote class="testimonialInfo">
+                                <img src="Icons/quote-left-svgrepo-com.svg" alt="" class="globalTypo__icon">
+                                <p class="globalTypo__testimonial">MoveMate made our residential move completely stress-free. The team was punctual, handled our stuff with care, and even helped us unpack the essentials. Highly recommend!</p>
+                                <span class="globalTypo__testimonialAuthor">— Carlos V., Makati</span>
+                            </blockquote>
+                            <div class="testimonialImage">
+                                <img src="Images/toucan.jpg" alt="" class="testimonialImage__img">
+                            </div>
+                            
+                        </div>
+
+
+
+
+                        <!-- slide one -->
+                        <div class="swiper-slide">
+                            
+                                
+                            <blockquote class="testimonialInfo">
+                                <img src="Icons/quote-left-svgrepo-com.svg" alt="" class="globalTypo__icon">
+                                <p class="globalTypo__testimonial">I needed to relocate my entire office on short notice. MoveMate's team coordinated everything so smoothly that we had zero downtime. Impressive service!</p>
+                                <span class="globalTypo__testimonialAuthor">— Dianne R., Quezon City</span>
+                            </blockquote>
+                            <div class="testimonialImage">
+                                <img src="Images/toucan.jpg" alt="" class="testimonialImage__img">
+                            </div>
+                            
+                        </div>
+
+
+                        <!-- slide one -->
+                        <div class="swiper-slide">
+                            
+                                
+                            <blockquote class="testimonialInfo">
+                                <img src="Icons/quote-left-svgrepo-com.svg" alt="" class="globalTypo__icon">
+                                <p class="globalTypo__testimonial">I usually hate packing, but their packing service was a game changer. Everything was labeled, organized, and securely wrapped. Worth every peso.</p>
+                                <span class="globalTypo__testimonialAuthor">— Jasmin E., Taguig</span>
+                            </blockquote>
+                            <div class="testimonialImage">
+                                <img src="Images/toucan.jpg" alt="" class="testimonialImage__img">
+                            </div>
+                            
+                        </div>
+     
+
+                        
+                   
+                    </div>
+
+                </div>
+
+            </section>
+
+            <section class="homeStyle__faqsSection">
+                <header class="faqsSection__header">
+                    <h2 class="globalTypo__sectionPrimary">Questions? Look here</h2>
+                    <p class="globalTypo__sectionSecondary">Can't find an answer? email us dummy@movemate</p>
+                </header>
+
+                <div class="faqsSection__container">
+                    <details>
+                        <summary class="globalTypo__faqsSummary">How do I book a MoveMate service?</summary>
+                        <p class="globalTypo__faqsAnswer">MoveMate operates in major metro areas and nearby provinces. We’re rapidly expanding, so check our service map during booking—or contact us if you're unsure if we cover your location.</p>
+                    </details>
+
+
+                     <details>
+                        <summary class="globalTypo__faqsSummary">What areas does MoveMate currently serve?</summary>
+                        <p class="globalTypo__faqsAnswer">MoveMate operates in major metro areas and nearby provinces. We’re rapidly expanding, so check our service map during booking—or contact us if you're unsure if we cover your location.</p>
+                    </details>
+
+
+                    <details>
+                        <summary class="globalTypo__faqsSummary">Can I reschedule or cancel my booking?</summary>
+                        <p class="globalTypo__faqsAnswer">Absolutely. You can reschedule or cancel up to 24 hours before your scheduled move for free. Just log into your account or call our support team to make changes.</p>
+                    </details>
+
+
+                    <details>
+                        <summary class="globalTypo__faqsSummary">Are my items insured during the move?</summary>
+                        <p class="globalTypo__faqsAnswer">Yes, all items are covered under our basic insurance policy during the move. For added peace of mind, we also offer premium coverage for high-value items.</p>
+                    </details>
+
+                    <details>
+                        <summary class="globalTypo__faqsSummary">Do you provide packing materials or help with packing?</summary>
+                        <p class="globalTypo__faqsAnswer">We offer packing materials like boxes, tape, and bubble wrap for purchase, and you can also hire our team to handle the packing for you. Let us know during checkout if you want that extra help!</p>
+                    </details>
+
+                </div>
+            </section>
+
+        </main>
+
+
+        <footer>
+            <section class="footer__navs">
+                <a href="about.html" class="globalTypo__footerNavs">Services</a>
+                <a href="" class="globalTypo__footerNavs">About</a>
+                <a href="" class="globalTypo__footerNavs">Contact</a>
+            </section>
+
+            <div class="footer__socials">
+                <a href="" class="footer__socials__wrapper">
+                    <img src="Icons/facebook-svgrepo-com (1).svg" alt="" class="footer__socials__wrapper__icons">
+                </a>
+
+                <a href="" class="footer__socials__wrapper">
+                    <img src="Icons/instagram-svgrepo-com.svg" alt="" class="footer__socials__wrapper__icons">
+                </a>
+
+                <a href="" class="footer__socials__wrapper">
+                    <img src="Icons/linkedin-svgrepo-com.svg" alt="" class="footer__socials__wrapper__icons">
+                </a>
+
+                <a href="" class="footer__socials__wrapper">
+                    <img src="Icons/twitter-154-svgrepo-com.svg" alt="" class="footer__socials__wrapper__icons">
+                </a>
+
+
+            </div>
+
+
+            <hr class="footer__divider">
+
+            <div class="footer__rights">
+                <span class="globalTypo__footerRights">©2025 MoveMate</span>
+                <span class="globalTypo__footerRights">All rights reserved</span>
+            </div>
+
+            <div class="footer__logoWrapper">
+                <h2 class="globalTypo__footerLogo">MoveMate</h2>
+            </div>
+        </footer>
+ 
+        <script src="scripts/interactables.js" defer></script>
+        
+    </body>
+</html>

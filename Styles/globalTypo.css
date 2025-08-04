@@ -1,0 +1,383 @@
+
+
+
+@media(min-width:325px){
+    .globalTypo__logo__header{
+        font-size: 1.1255rem;
+        font-weight: 700;
+        margin: 0;
+        color: #3b82f6;
+    }
+
+    .globalTypo__navigation__link{
+        font-size: 1rem;
+        letter-spacing: 0.05rem;
+    }
+
+
+    .globalTypo__heroPrimary{
+        font-size: 3rem;
+    }
+
+    .globalTypo__sectionPrimary{
+        margin: 0;
+        font-size: 1.30rem;
+        color: #1e1e1e;
+    }
+
+    .globalTypo__sectionSecondary{
+        margin: 0;
+        font-size: 1rem;
+        color: #3c3c3c;
+        text-align: center;
+    }
+
+
+
+
+    /*--- typography service card--- */
+    .globalTypo__icon{
+        width: 1.75rem;
+        height: 1.75rem;
+        border: 1px  red;
+        object-fit: cover;
+    }
+
+    .globalTypo__serviceCardPrimary{
+        margin: 0;
+        font-size: 1.15rem;
+        font-weight: 600;
+        color: #1e1e1e;
+    }
+    .globalTypo__serviceCardSecondary{
+        margin:0;
+        text-align: center;
+        font-size: 1rem;
+        color: #3c3c3c;
+        
+    }
+
+    .globalTypo__serviceCardCTA{
+        text-decoration: none;
+        color: #3b82f6;
+    }
+
+
+    /*--- typography for testimonial ---*/
+    .globalTypo__testimonial{
+        font-size: 1rem;
+         color: #3c3c3c;
+    }
+
+    .globalTypo__testimonialAuthor{
+        font-size: 0.8rem;
+        font-weight: 800;
+        color: #1e1e1e;
+    }
+
+    /*--- typography for footer ---*/
+
+    .globalTypo__footerNavs{
+        text-decoration: none;
+        color: white;
+        letter-spacing: 0.005rem;
+    }
+
+
+    .globalTypo__footerRights{
+        font-size: 0.85rem;
+        color: #cccccc;
+    }
+
+    .globalTypo__footerLogo{
+        margin: 0;
+    }
+
+
+    /*--- typography for faqs section ---*/
+
+    .globalTypo__faqsSummary{
+        font-size: 1rem;
+        font-weight: 600;
+        color: #1e1e1e;
+    }
+
+    .globalTypo__faqsAnswer{
+        font-size: 0.9rem;
+        color: #3c3c3c;
+    }
+
+    /*--- typography for quote form ---*/
+
+
+    .globalTypo__quote__title{
+        color: #1e1e1e;
+        margin: 0.5rem 0rem;
+    }
+
+    .globalTypo__quote__title__tertiary{
+        color: #1e1e1e;
+        font-weight: 600;
+      
+    }
+
+    /*--- globalTypo__aboutpage__primary ---*/
+    .globalTypo__aboutpage__primary{
+        font-size: 3rem;
+
+    }
+    .globalTypo__aboutpage__textbody{
+        color: #d9d9d9;
+    }
+}
+
+
+
+
+@media(min-width:425px){
+        .globalTypo__faqsSummary{
+        font-size: 1.1rem;
+        font-weight: 600;
+        color: #1e1e1e;
+    }
+
+    .globalTypo__faqsAnswer{
+        font-size: 1rem;
+        color: #3c3c3c;
+    }
+
+}
+
+
+@media(min-width:768px){
+    .globalTypo__logo__header{
+        font-size: 1.25rem;
+        font-weight: 700;
+    }
+
+    .globalTypo__navigation__link{
+        font-size: 1rem;
+        font-weight: 500;
+        letter-spacing: 0.05rem;
+    }
+
+
+    /*--- globalTypo__aboutpage__primary ---*/
+    .globalTypo__aboutpage__primary{
+        font-size: 3rem;
+        color: #1e1e1e;
+        margin: 0.5rem 0rem;
+
+    }
+    .globalTypo__aboutpage__textbody{
+        color: #3c3c3c;
+        font-size: 1.1em;
+    }
+
+    .globalTypo__sectionSecondary{
+        margin: 0;
+        font-size: 1.1rem;
+        color: #3c3c3c;
+        text-align: center;
+    }
+
+    .globalTypo__heroPrimary{
+        font-size: 4rem;
+    }
+
+
+        /*--- typography for footer ---*/
+
+    .globalTypo__footerNavs{
+        text-decoration: none;
+        color: white;
+        letter-spacing: 0.005rem;
+        font-size: 1rem;
+    }
+
+
+    .globalTypo__footerRights{
+        font-size: 0.85rem;
+        color: #cccccc;
+    }
+
+    .globalTypo__footerLogo{
+        margin: 0;
+        font-size: 1.75;
+    }
+
+
+
+}
+
+
+
+@media(min-width:1025px){
+    .globalTypo__sectionPrimary{
+        margin: 0;
+        font-size: 1.5rem;
+        color: #1e1e1e;
+    }
+
+
+        /*--- globalTypo__aboutpage__primary ---*/
+    .globalTypo__aboutpage__primary{
+        font-size: 4rem;
+
+    }
+    .globalTypo__aboutpage__textbody{
+        color: #3c3c3c;
+        font-size: 1.1rem;
+    }
+
+    .globalTypo__faqsSummary{
+        font-size: 1.2rem;
+        font-weight: 600;
+        color: #1e1e1e;
+    }
+
+    .globalTypo__faqsAnswer{
+        font-size: 1.1rem;
+        color: #3c3c3c;
+    }
+
+    .globalTypo__heroPrimary{
+        font-size: 4.5rem;
+    }
+
+    .globalTypo__logo__header{
+        font-size: 1.5rem;
+        font-weight: 700;
+    }
+
+    .globalTypo__navigation__link{
+        font-size: 1rem;
+        font-weight: 500;
+        letter-spacing: 0.05rem;
+    }
+
+
+            /*--- typography for footer ---*/
+
+    .globalTypo__footerNavs{
+        text-decoration: none;
+        color: white;
+        letter-spacing: 0.005rem;
+        font-size: 1.1rem;
+    }
+
+
+    .globalTypo__footerRights{
+        font-size: 0.95rem;
+        color: #cccccc;
+    }
+
+    .globalTypo__footerLogo{
+        margin: 0;
+        font-size: 1.95rem;
+    }
+
+}
+
+@media(min-width:1280px){
+    .globalTypo__sectionPrimary{
+        margin: 0;
+        font-size: 1.75rem;
+        color: #1e1e1e;
+    }
+    .globalTypo__sectionSecondary{
+        margin: 0;
+        font-size: 1.25rem;
+        color: #3c3c3c;
+        text-align: center;
+    }
+
+            /*--- globalTypo__aboutpage__primary ---*/
+    .globalTypo__aboutpage__primary{
+        font-size: 4rem;
+
+    }
+    .globalTypo__aboutpage__textbody{
+        color: #3c3c3c;
+        font-size: 1.25rem;
+    }
+
+
+    /*--- typography service card--- */
+    .globalTypo__icon{
+        width: 1.75rem;
+        height: 1.75rem;
+        border: 1px  red;
+        object-fit: cover;
+    }
+
+    .globalTypo__serviceCardPrimary{
+        margin: 0;
+        font-size: 1.20rem;
+        font-weight: 600;
+        color: #1e1e1e;
+    }
+    .globalTypo__serviceCardSecondary{
+        margin:0;
+        text-align: center;
+        font-size: 1.10rem;
+        color: #3c3c3c;
+        
+    }
+
+    .globalTypo__serviceCardCTA{
+        text-decoration: none;
+        color: #3b82f6;
+        font-size: 1.10rem;
+    }
+
+
+    .globalTypo__faqsSummary{
+        font-size: 1.2rem;
+        font-weight: 600;
+        color: #1e1e1e;
+    }
+
+    .globalTypo__faqsAnswer{
+        font-size: 1.10rem;
+        color: #3c3c3c;
+    }
+
+
+    /*--- testimonial ---*/
+      
+    .globalTypo__testimonial{
+        font-size: 1.10rem !important;
+         color: #3c3c3c;
+    }
+
+    .globalTypo__testimonialAuthor{
+        font-size: 1rem;
+        font-weight: 800;
+        color: #1e1e1e;
+    }
+
+    
+}
+
+
+
+@media(min-width:1440px){
+    .globalTypo__sectionPrimary{
+        margin: 0;
+        font-size: 2rem;
+        color: #1e1e1e;
+    }
+
+            /*--- globalTypo__aboutpage__primary ---*/
+    .globalTypo__aboutpage__primary{
+        font-size: 4rem;
+
+    }
+    .globalTypo__aboutpage__textbody{
+        color: #3c3c3c;
+        font-size: 1.50rem;
+    }
+
+
+}
